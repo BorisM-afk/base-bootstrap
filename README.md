@@ -16,3 +16,7 @@ Projet de départ prêt à compiler avec Live Sass Compiler (sans npm).
 - `assets/vendor/bootstrap/scss/` : sources Bootstrap 5.3.8 (ne pas modifier)
 - `assets/css/main.css` : CSS compilé, chargé par `index.html`
 - `.vscode/settings.json` : sortie de Live Sass Compiler dans `assets/css/`
+
+## Aide-mémoire
+
+Voir [CHEATSHEET.md](CHEATSHEET.md) : ordre des imports, variables SASS utiles, grille, utilitaires, images et composants principaux.
