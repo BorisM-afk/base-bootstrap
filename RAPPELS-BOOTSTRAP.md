@@ -1,4 +1,7 @@
-# Cheat sheet Bootstrap 5.3 + SASS
+> **Lire ce fichier proprement dans VS Code :** `Ctrl + Shift + V` (aperçu dans l'onglet)
+> ou `Ctrl + K` puis `V` (aperçu à côté du code).
+
+# Rappels Bootstrap 5.3 + SASS
 
 Les rappels essentiels, rien de plus. Pour le reste : la doc Bootstrap 5.3.
 

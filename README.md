@@ -17,6 +17,6 @@ Projet de départ prêt à compiler avec Live Sass Compiler (sans npm).
 - `assets/css/main.css` : CSS compilé, chargé par `index.html`
 - `.vscode/settings.json` : sortie de Live Sass Compiler dans `assets/css/`
 
-## Aide-mémoire
+## Rappels
 
-Voir [CHEATSHEET.md](CHEATSHEET.md) : ordre des imports, variables SASS utiles, grille, utilitaires, images et composants principaux.
+Voir [RAPPELS-BOOTSTRAP.md](RAPPELS-BOOTSTRAP.md) : ordre des imports, variables SASS utiles, grille, utilitaires, images et composants principaux.
