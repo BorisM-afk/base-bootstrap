@@ -14,6 +14,7 @@ Projet de départ prêt à compiler avec Live Sass Compiler (sans npm).
 - `assets/scss/main.scss` : ordre des imports
 - `assets/scss/_variables.scss` : surcharges des variables Bootstrap (avant Bootstrap)
 - `assets/vendor/bootstrap/scss/` : sources Bootstrap 5.3.8 (ne pas modifier)
+- `assets/vendor/bootstrap/js/` : JS de Bootstrap (bundle avec Popper), chargé en local avant `</body>`
 - `assets/css/main.css` : CSS compilé, chargé par `index.html`
 - `.vscode/settings.json` : sortie de Live Sass Compiler dans `assets/css/`
 
