@@ -5,7 +5,7 @@ Projet de départ prêt à compiler avec Live Sass Compiler (sans npm).
 ## Démarrer
 
 1. Ouvrir le dossier dans VS Code (Fichier → Ouvrir le dossier).
-2. Extensions : Live Sass Compiler (Glenn Marks) et Live Server (Ritwick Dey).
+2. Extensions : accepter « Tout installer » quand VS Code les propose (ou voir la section 8 des rappels).
 3. Ouvrir `assets/scss/main.scss` puis cliquer sur **Watch Sass** (barre du bas).
 4. Clic droit sur `index.html` → **Open with Live Server**.
 
@@ -20,4 +20,4 @@ Projet de départ prêt à compiler avec Live Sass Compiler (sans npm).
 
 ## Rappels
 
-Voir [RAPPELS-BOOTSTRAP.md](RAPPELS-BOOTSTRAP.md) : ordre des imports, variables SASS utiles, grille, utilitaires, images et composants principaux.
+Voir [RAPPELS-BOOTSTRAP.md](RAPPELS-BOOTSTRAP.md) : ordre des imports, variables SASS utiles, grille, utilitaires, images, composants principaux et extensions VS Code.

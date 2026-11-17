@@ -249,3 +249,29 @@ Burger, accordéon, onglets, modale, carrousel → besoin du **bundle JS** avant
 - `!important` ou `style=""` → à éviter.
 - Graisse de police non importée → faux gras.
 - Tester seulement en plein écran → tester à 375, 768 et 1200 px.
+
+---
+
+## 8. Extensions VS Code
+
+**Tout installer d'un coup** : copier cette ligne dans le terminal de VS Code (`Ctrl + ù`) puis Entrée.
+
+```
+code --install-extension ritwickdey.liveserver --install-extension glenn2223.live-sass --install-extension hossaini.bootstrap-intellisense --install-extension anbuselvanrocky.bootstrap5-vscode --install-extension yzhang.markdown-all-in-one --install-extension enkia.tokyo-night --install-extension formulahendry.auto-close-tag --install-extension formulahendry.auto-rename-tag --install-extension pranaygp.vscode-css-peek --install-extension ecmel.vscode-html-css --install-extension fuzionix.devtool-plus
+```
+
+**Sans terminal** : en ouvrant ce dossier, VS Code propose d'installer les extensions recommandées (fichier `.vscode/extensions.json`) → **Tout installer**. Sinon : `Ctrl + Shift + X`, taper `@recommended`.
+
+| Extension | À quoi ça sert |
+|---|---|
+| Live Server | Ouvre le site et le recharge à chaque sauvegarde |
+| Live Sass Compiler | Compile le `.scss` en `.css` (bouton **Watch Sass**) |
+| Bootstrap IntelliSense | Propose les classes Bootstrap pendant la frappe |
+| Bootstrap 5 Snippets | Raccourcis pour générer des composants (navbar, card…) |
+| Markdown All in One | Lire et écrire les `.md` |
+| Tokyo Night | Thème → choisir **Tokyo Night Storm** |
+| Auto Close Tag | Ferme la balise toute seule |
+| Auto Rename Tag | Renomme la balise fermante avec l'ouvrante |
+| CSS Peek | `Ctrl + clic` sur une classe → va à son CSS |
+| HTML CSS Support | Propose tes propres classes dans le HTML |
+| DevTool Plus | Boîte à outils (pipette, convertisseurs…) |
