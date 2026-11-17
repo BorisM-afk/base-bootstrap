@@ -1,0 +1,26 @@
+// 0. Police Google (option @import) : coller ici, tout en haut
+// @import url('https://fonts.googleapis.com/css2?family=...&display=swap');
+
+// 1. Fonctions Bootstrap
+@import "../vendor/bootstrap/scss/functions";
+
+// 2. Mes variables (avant celles de Bootstrap)
+@import "variables";
+
+// 3. Variables Bootstrap
+@import "../vendor/bootstrap/scss/variables";
+@import "../vendor/bootstrap/scss/variables-dark";
+
+// 4. Maps : couleurs et formats ajoutés (décommenter et adapter)
+// $theme-colors: map-merge($theme-colors, (
+//   "accent": #000000
+// ));
+// $aspect-ratios: map-merge($aspect-ratios, (
+//   "3x2": calc(2 / 3 * 100%)
+// ));
+
+// 5. Le reste de Bootstrap
+@import "../vendor/bootstrap/scss/bootstrap";
+
+// 6. Mes partiels (BEM)
+// @import "hero";
