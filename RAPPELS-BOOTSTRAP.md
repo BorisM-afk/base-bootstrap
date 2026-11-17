@@ -260,7 +260,17 @@ Burger, accordéon, onglets, modale, carrousel → besoin du **bundle JS** avant
 code --install-extension ritwickdey.liveserver --install-extension glenn2223.live-sass --install-extension hossaini.bootstrap-intellisense --install-extension anbuselvanrocky.bootstrap5-vscode --install-extension yzhang.markdown-all-in-one --install-extension enkia.tokyo-night --install-extension formulahendry.auto-close-tag --install-extension formulahendry.auto-rename-tag --install-extension pranaygp.vscode-css-peek --install-extension ecmel.vscode-html-css --install-extension fuzionix.devtool-plus
 ```
 
-**Sans terminal** : en ouvrant ce dossier, VS Code propose d'installer les extensions recommandées (fichier `.vscode/extensions.json`) → **Tout installer**. Sinon : `Ctrl + Shift + X`, taper `@recommended`.
+**Si « code n'est pas reconnu »** (PC de l'IUT par exemple), passer par une des solutions ci-dessous.
+
+**Sans terminal ni GitHub** :
+1. Ouvrir ce dossier dans VS Code → une notification propose d'installer les extensions recommandées (fichier `.vscode/extensions.json`) → **Tout installer**.
+2. Pas de notification ? `Ctrl + Shift + X`, taper `@recommended` → installer la liste.
+3. En dernier recours : `Ctrl + Shift + X`, coller l'ID d'une extension (ex. `glenn2223.live-sass`) → **Installer**, une par une.
+
+**Avec un profil VS Code** (extensions + thème + réglages) :
+1. Sur mon PC : roue crantée en bas à gauche → **Profils** → **Exporter le profil** → **Exporter vers un fichier** (`.code-profile`).
+2. Mettre le fichier sur une clé USB ou un drive.
+3. Sur l'autre PC : roue crantée → **Profils** → **Importer le profil** → choisir le fichier.
 
 | Extension | À quoi ça sert |
 |---|---|
